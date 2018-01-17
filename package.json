@@ -1,0 +1,34 @@
+{
+  "name": "irajs-graphql",
+  "version": "0.1.0",
+  "description": "将 graphql 加入现有的 koa + mongoose 架构里",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "node example/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gzira/irajs-graphql.git"
+  },
+  "keywords": [],
+  "author": "zysam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gzira/irajs-graphql/issues"
+  },
+  "homepage": "https://github.com/gzira/irajs-graphql#readme",
+  "dependencies": {
+    "graphql": "^0.12.3",
+    "graphql-compose": "^2.10.1",
+    "graphql-compose-mongoose": "^1.10.0"
+  },
+  "devDependencies": {
+    "apollo-server-koa": "^1.3.2",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.3.0",
+    "mongoose": "^4.13.9",
+    "mongoose-paginate": "^5.0.3"
+  }
+}
