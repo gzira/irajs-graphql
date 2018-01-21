@@ -1,10 +1,11 @@
 {
   "name": "irajs-graphql",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "将 graphql 加入现有的 koa + mongoose 架构里",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish --registry https://registry.npmjs.org",
     "example": "node example/app.js"
   },
   "repository": {
